@@ -9,7 +9,7 @@ var _db
 var dbname = "smartinvdb"
 
 // MonogDB Atlas
-const url = "mongodb+srv://samit:smk377040@cluster0.fi3ys.mongodb.net/"+dbname
+const url = "mongodb+srv://samit:xxxxx@cluster0.fi3ys.mongodb.net/"+dbname
 
 const connectDb = (callback) => {
     if (_db) return callback()
