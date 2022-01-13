@@ -37,3 +37,5 @@ db.category.insertMany(
     ]
 )
 
+// การลบ collection ทิ้ง
+// db.products.drop()

@@ -7,6 +7,7 @@ use(database);
 db.products.insertMany(
     [
         {
+            ProductID: 1,
             CategoryID: 1,
             ProductName: "iPhone 13 Pro Max",
             UnitPrice: 55000,
@@ -16,6 +17,7 @@ db.products.insertMany(
             ModifiedDate: "2021-11-21T17:00:00.000Z"
         },
         {
+            ProductID: 2,
             CategoryID: 2,
             ProductName: "iPad Pro 2021",
             UnitPrice: 18500,
@@ -25,6 +27,7 @@ db.products.insertMany(
             ModifiedDate: "2021-11-19T17:00:00.000Z"
         },
         {
+            ProductID: 3,
             CategoryID: 3,
             ProductName: "Huawei Smartwatch WATCH GT3",
             UnitPrice: 12500,
@@ -34,6 +37,7 @@ db.products.insertMany(
             ModifiedDate: "2021-11-12T03:30:00.000Z"
         },
         {
+            ProductID: 4,
             CategoryID: 4,
             ProductName: "Macbook Pro M1",
             UnitPrice: 45000,
@@ -44,3 +48,6 @@ db.products.insertMany(
         }
     ]
 )
+
+// การลบ collection ทิ้ง
+// db.products.drop()
